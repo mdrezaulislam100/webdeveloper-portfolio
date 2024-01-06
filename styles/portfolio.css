@@ -97,7 +97,7 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -110,13 +110,26 @@ main{
     margin: 130px 0px;
 }
 
-.about-info-container{
-    display:flex;
+.about-info-container {
+    display: flex;
     justify-content: space-around;
 }
-.about-info{
-   text-align: center; 
+
+.about-info {
+    text-align: center;
 }
-#what-do-description{
+
+/* skills related styles */
+
+#what-do-description {
     padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
+}
+
+.skill{
+    padding: 30px;
+    gap: 24px;
 }
